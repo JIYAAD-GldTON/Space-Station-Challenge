@@ -1,0 +1,5 @@
+train: C:/Users/Jiyaad/Projects/hackathon2_train_1/train_1/train1 #path to training folder(s)
+val:  C:/Users/Jiyaad/Projects/hackathon2_train_1/train_1/val1 #path to validation folder(s)
+test: C:\Users\Jiyaad\Projects\Datasets_Hackathon2_test2\test2 #path to testing images
+nc: 7
+names: ['OxygenTank', 'NitrogenTank', 'FirstAidBox', 'FireAlarm', 'SafetySwitchPanel', 'EmergencyPhone', 'FireExtinguisher']                                         
