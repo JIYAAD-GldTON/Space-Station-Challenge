@@ -29,7 +29,7 @@ class YOLODetectionApp:
     def __init__(
         self,
         root,
-        model_path="C:/Users/Jiyaad/Documents/GitHub/Space-Station-Challenge/runs/detect/linux/weights/best.pt",
+        model_path="C:/Users/Jiyaad/Documents/GitHub/Space-Station-Challenge/runs/detect/train12 FINAL (10 Epoch)/weights/best.pt",
     ):
         self.root = root
         self.root.title("YOLO11n Real-Time Object Detection")
@@ -376,7 +376,7 @@ class YOLODetectionApp:
 def main():
     root = tk.Tk()
     # Set your weights path here (forward slashes are safe on Windows)
-    model_path = "C:/Users/Jiyaad/Documents/GitHub/Space-Station-Challenge/runs/detect/linux/best.pt"
+    model_path = "C:/Users/Jiyaad/Documents/GitHub/Space-Station-Challenge/runs/detect/linux/weights/best.pt"
     app = YOLODetectionApp(root, model_path)
     root.protocol("WM_DELETE_WINDOW", app.on_closing)
     root.mainloop()
